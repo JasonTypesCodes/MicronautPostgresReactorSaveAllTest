@@ -15,7 +15,7 @@ public class Friend {
     @Id
     @AutoPopulated
     @GeneratedValue(GeneratedValue.Type.AUTO)
-    private UUID id;
+    private Integer id;
 
     private String name;
 
