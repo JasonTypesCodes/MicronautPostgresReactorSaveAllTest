@@ -61,8 +61,8 @@ class FriendControllerTest {
 
         assertEquals(3, result.size());
         assertEquals("Larry", result.get(0).getName());
-        assertEquals("Moe", result.get(0).getName());
-        assertEquals("Curly", result.get(0).getName());
+        assertEquals("Moe", result.get(1).getName());
+        assertEquals("Curly", result.get(2).getName());
     }
 
 }
