@@ -1,0 +1,15 @@
+micronaut:
+  application:
+    name: SaveAllTest
+r2dbc:
+  datasources:
+    default:
+      schema-generate: CREATE_DROP
+      dialect: POSTGRES
+      url: r2dbc:postgresql://localhost:5432/postgres
+      username: postgres
+      password: P@ss2022
+netty:
+  default:
+    allocator:
+      max-order: 3
